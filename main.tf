@@ -65,6 +65,12 @@ variable "k8s_version" {
 output "k8s_version" {
         value = var.k8s_version
 }
+variable "k8s_version_name" {
+  type = string
+}
+output "k8s_version_name" {
+        value = var.k8s_version_name
+}
 variable "masterinstance" {
   type = string
 }

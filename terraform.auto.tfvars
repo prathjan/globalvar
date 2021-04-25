@@ -21,6 +21,7 @@ workerip_pool_policy = "sbcluster-ip_pool_policy"
 network_pod = "sbcluster_pod"
 network_service = "sbcluster_service" 
 k8s_version = "1.19.5"
+k8s_version_name = "sbcluster-1.19.5"
 masterinstance = "sbcluster-master-instance"
 
 #netcfg_list = "testsjccidr"

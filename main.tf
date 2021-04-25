@@ -4,4 +4,5 @@ variable "clustername" {
 }
 output "clustername" {
         value = var.clustername 
+}
 

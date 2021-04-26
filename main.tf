@@ -134,11 +134,11 @@ variable "instancetypename" {
 output "instancetypename" {
         value = var.instancetypename
 }
-variable "vspheredevname" {
+variable "device_name" {
   type = string
 }
-output "vspheredevname" {
-        value = var.vspheredevname
+output "device_name" {
+        value = var.device_name
 }
 variable "portgroup" {
   type = list(string)

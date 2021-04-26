@@ -1,7 +1,4 @@
 
-variable "organization" {
-  type = string
-}
 variable "globalwsname" {
   type = string
 }

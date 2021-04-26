@@ -254,4 +254,23 @@ output "memory" {
 }
 
 
+variable "organization" {
+  type = string
+}
+output "organization" {
+        value = var.organization
+}
+
+variable "device_name" {
+  type = string
+}
+output "device_name" {
+        value = var.device_name
+}
+
+
+
+
+
+
 

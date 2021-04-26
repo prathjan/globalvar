@@ -46,7 +46,7 @@ instancetypename = "testsjcinstancetype"
 
 
 
-vspheredevname = "10.200.0.210"
+device_name = "10.200.0.210"
 portgroup = ["Management"]
 datastore = "hx-demo-ds1"
 vspherecluster = "hx-demo"

@@ -2,7 +2,7 @@
 #api_key = ""
 #secretkey = ""
 #mgmtcfgsshkeys = ""
-#vspherepasswd = ""
+#password = ""
 #cloud_api_key_id = ""
 
 #Common workspaces
@@ -14,14 +14,14 @@ globalwsname = "globalws"
 clustername = "sbcluster"
 ippool_list = "sbippool"
 
-infra_config_policy = "sbcluster-infra_config_policy"
-ip_pool_policy = "sbcluster-ip_pool_policy"
-masterip_pool_policy = "sbcluster-ip_pool_policy"
-workerip_pool_policy = "sbcluster-ip_pool_policy"
+infra_config_policy = "sbcluster_infra_config_policy"
+ip_pool_policy = "sbcluster_ip_pool_policy"
+masterip_pool_policy = "sbcluster_ip_pool_policy"
+workerip_pool_policy = "sbcluster_ip_pool_policy"
 network_pod = "sbcluster_pod"
 network_service = "sbcluster_service" 
 k8s_version = "1.19.5"
-k8s_version_name = "sbcluster-1.19.5"
+k8s_version_name = "sbcluster_1.19.5"
 masterinstance = "sbcluster-master-instance"
 
 #netcfg_list = "testsjccidr"

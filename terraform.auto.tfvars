@@ -45,7 +45,7 @@ instancetypename = "testsjcinstancetype"
 #domain_name = "demo.intra"
 #All these are params used in Infra setup
 #device_name = "10.200.0.210"
-#portgroup = ["Management"]
+#portgroup = "Management"
 #datastore = "hx-demo-ds1"
 #vspherecluster = "hx-demo"
 #resource_pool = "Test_Resource_Pool"

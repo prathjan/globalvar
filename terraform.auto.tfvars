@@ -39,24 +39,24 @@ instancetypename = "testsjcinstancetype"
 
 
 #Following are params that are to be set in TFC UI, specific to user's ENV
-
+#Examples...
 #network params
-timezone = "America/New_York"
-domain_name = "demo.intra"
+#timezone = "America/New_York"
+#domain_name = "demo.intra"
 #All these are params used in Infra setup
-device_name = "10.200.0.210"
-portgroup = ["Management"]
-datastore = "hx-demo-ds1"
-vspherecluster = "hx-demo"
-resource_pool = "Test_Resource_Pool"
-organization = "default"
+#device_name = "10.200.0.210"
+#portgroup = ["Management"]
+#datastore = "hx-demo-ds1"
+#vspherecluster = "hx-demo"
+#resource_pool = "Test_Resource_Pool"
+#organization = "default"
 #ip_pool_policy params
-starting_address = "10.200.0.20"
-pool_size = "30"
-netmask = "255.255.255.0"
-gateway = "10.200.0.254"
-primary_dns = "10.200.0.100"
+#starting_address = "10.200.0.20"
+#pool_size = "30"
+#netmask = "255.255.255.0"
+#gateway = "10.200.0.254"
+#primary_dns = "10.200.0.100"
 #instance type
-cpu = "4"
-disk_size = "40"
-memory = "16384"
+#cpu = "4"
+#disk_size = "40"
+#memory = "16384"
